@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>biglietto treno</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <!-- calcola il prezzo del tuo biglietto -->
+    <section id="calcolo_biglietto">
+
+      <h2>calcola il prezzo del tuo biglietto</h2>
+
+      <div class="card">
+
+        <div class="row">
+
+          <div class="col">
+            <label for="name">Nome Cognome</label>
+            <input id="nome_cognome" type="text" name="name">
+          </div>
+
+          <div class="col">
+            <label for="km">Km da percorrere</label>
+            <input id="km" type="text" name="km">
+          </div>
+
+          <div class="col">
+            <label for="fascia_età">Fascia d'età</label>
+            <select id="fascia_età" name="fascia_età">
+              <option value="minorenne">Minorenne</option>
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="over_65">Over 65</option>
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <button id="genera" type="button" name="button">Genera</button>
+          <button id="annulla" type="button" name="button">Annulla</button>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /calcola il prezzo del tuo biglietto -->
+
+    <!-- il tuo biglietto -->
+    <section id="biglietto">
+
+      <h2>il tuo biglietto</h2>
+
+      <div id="card_biglietto">
+
+        <h3>dettaglio passeggeri</h3>
+        
+        <table>
+          <tr>
+            <th>NOME PASSEGGERO</th>
+            <th>Offerta</th>
+            <th>Carrozza</th>
+            <th>Codice CP</th>
+            <th>Costo biglietto</th>
+          </tr>
+          <tr>
+            <th id="nome_passeggero"></th>
+            <th id="offerta"></th>
+            <th id="carrozza"></th>
+            <th id="codice_cp"></th>
+            <th id="costo_biglietto"></th>
+          </tr>
+
+        </table>
+
+      </div>
+
+    </section>
+    <!-- /il tuo biglietto -->
+
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
