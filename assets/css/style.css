@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #B91450;
+  padding-bottom: 80px;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* calcola il prezzo del tuo biglietto */
+
+#calcolo_biglietto .card{
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+}
+
+#calcolo_biglietto .card .row{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#calcolo_biglietto .card .row .col{
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+#calcolo_biglietto .card .row .col label{
+  color: #B91450;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#calcolo_biglietto .card .row .col input,
+#calcolo_biglietto .card .row .col select{
+  border: 2px solid #B91450;
+  border-radius: 5px;
+  height: 40px;
+  width: 170px;
+  text-align: center;
+}
+
+#calcolo_biglietto .card .row .col input:focus,
+#calcolo_biglietto .card .row .col select:focus{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#genera, #annulla{
+  margin: 0 10px;
+  padding: 7px 10px;
+  color: #B91450;
+  font-weight: 600;
+  font-size: 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+#genera:hover, #annulla:hover{
+  border-color: rgb(143, 0, 61);
+  background-color: rgba(175, 175, 175, 0.85);
+}
+
+/* /calcola il prezzo del tuo biglietto */
+
+
+/* il tuo biglietto */
+
+#card_biglietto{
+  margin: auto;
+  background-color: white;
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#card_biglietto h3{
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#card_biglietto .row{
+  display: flex;
+}
+
+#card_biglietto .row div{
+  padding: 20px;
+  background-color: grey;
+  border-color: grey;
+  width: 20%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#card_biglietto .row div h4{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#card_biglietto .row div span{
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+#card_biglietto .row table{
+  width: 80%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  height: 200px;
+}
+
+#card_biglietto .row table tr:first-of-type{
+  font-size: 27px;
+  font-weight: 700;
+}
+
+#card_biglietto .row table tr:last-of-type{
+  font-size: 22px;
+}
+/* /il tuo biglietto */

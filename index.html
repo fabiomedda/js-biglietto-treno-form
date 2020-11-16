@@ -19,8 +19,8 @@
         <div class="row">
 
           <div class="col">
-            <label for="name">Nome Cognome</label>
-            <input id="nome_cognome" type="text" name="name">
+            <label for="nome_cognome">Nome Cognome</label>
+            <input id="nome_cognome" type="text" name="nome_cognome">
           </div>
 
           <div class="col">
@@ -60,24 +60,31 @@
       <div id="card_biglietto">
 
         <h3>dettaglio passeggeri</h3>
-        
-        <table>
-          <tr>
-            <th>NOME PASSEGGERO</th>
-            <th>Offerta</th>
-            <th>Carrozza</th>
-            <th>Codice CP</th>
-            <th>Costo biglietto</th>
-          </tr>
-          <tr>
-            <th id="nome_passeggero"></th>
-            <th id="offerta"></th>
-            <th id="carrozza"></th>
-            <th id="codice_cp"></th>
-            <th id="costo_biglietto"></th>
-          </tr>
 
-        </table>
+        <div class="row">
+
+          <div>
+            <h4>NOME PASSEGGERO</h4>
+            <span id="nome_passeggero"></span>
+          </div>
+
+
+          <table>
+            <tr>
+              <th>Offerta</th>
+              <th>Carrozza</th>
+              <th>Codice CP</th>
+              <th>Costo biglietto</th>
+            </tr>
+            <tr>
+              <th id="offerta"></th>
+              <th id="carrozza"></th>
+              <th id="codice_cp"></th>
+              <th id="costo_biglietto"></th>
+            </tr>
+          </table>
+
+        </div>
 
       </div>
 
